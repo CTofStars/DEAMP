@@ -1,0 +1,10 @@
+.vs/
+Temp/
+Logs/
+obj/
+*_Build/
+*.csproj
+*.sln
+Library/*
+!Library/LastSceneManagerSetup.txt
+
