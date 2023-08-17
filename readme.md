@@ -1,6 +1,6 @@
 # DEAMP: Dominant-Eye-Aware Foveated Rendering with Multi-Parameter Optimization
 
-Unity Demo Code of DEAMP (IEEE ISMAR 2023). Tested on Unity 2020.3.8f1.
+Unity Demo Code of DEAMP (IEEE ISMAR 2023). Tested on Unity 2020.3.8f1 and SteamVR v2.7.3.
 
 ![image](src/teaser.png)
 
@@ -16,7 +16,7 @@ The increasing use of high-resolution displays and the demand for interactive fr
 
 * Clone this repo and open the DEAMP folder using Unity 2020.3.8f1.
 
-* Import SteamVR Unity Plugin from the unity asset store.
+* Import SteamVR Unity Plugin from the unity asset store. (If needed)
 
 (Or get access from github: [Release SteamVR Unity Plugin v2.7.3 (sdk 1.14.15) · ValveSoftware/steamvr_unity_plugin (github.com)](https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/2.7.3))
 
@@ -34,7 +34,7 @@ You may control the parameters by keyboard keys:
   * **"dom"**: Level of foveation increases in all 2 eyes, the goal is to determine the parameters of the dominant eye.
   * **"nondom"**: Level of foveation increases only in the non-dominant eye, the goal is to determine the parameters of the non-dominant eye after determining the parameters of the dominant eye.
 
-##### Level of foveation (blurred eye depend on **dominant eye** and **mode** settings)
+#### Level of foveation (blurred eye depend on **dominant eye** and **mode** settings)
 
 * **F**: Increase the level of foveation of the all 3 layers (fovea, mid-periphery, periphery).
 * **M**: Increase the level of foveation of the outer 2 layers (mid-periphery, periphery).
