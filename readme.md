@@ -34,7 +34,7 @@ You may control the parameters by keyboard keys:
   * **"dom"**: Level of foveation increases in all 2 eyes, the goal is to determine the parameters of the dominant eye.
   * **"nondom"**: Level of foveation increases only in the non-dominant eye, the goal is to determine the parameters of the non-dominant eye after determining the parameters of the dominant eye.
 
-#### Level of foveation (blurred eye depend on **dominant eye** and **mode** settings)
+#### Level of foveation (the blurred eye depends on dominant eye and mode settings)
 
 * **F**: Increase the level of foveation of the all 3 layers (fovea, mid-periphery, periphery).
 * **M**: Increase the level of foveation of the outer 2 layers (mid-periphery, periphery).
