@@ -1,6 +1,7 @@
 # DEAMP: Dominant-Eye-Aware Foveated Rendering with Multi-Parameter Optimization
 
 Unity Demo Code of DEAMP (IEEE ISMAR 2023). Tested on Unity 2020.3.8f1 and SteamVR v2.7.3.
+Link: https://ieeexplore.ieee.org/document/10316357
 
 ![image](src/teaser.png)
 
