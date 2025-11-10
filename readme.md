@@ -22,19 +22,17 @@ The increasing use of high-resolution displays and the demand for interactive fr
 
 (Or get access from github: [Release SteamVR Unity Plugin v2.7.3 (sdk 1.14.15) · ValveSoftware/steamvr_unity_plugin (github.com)](https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/2.7.3))
 
-## Usage
-
-This is a demo for binocular vision, please use with a VR headset. 
+## Usage 
 
 You may control the parameters by keyboard keys:
 
-* **O**: Show a red line to indicate the layer boundaries.
-* **LeftArrow, RightArrow, DownArrow, UpArrow**: Control the position of the fixate point.
+* **O**: Show the layer boundaries.
+* **LeftArrow, RightArrow, DownArrow, UpArrow**: Control the fixate point.
 
-* **D:** Set which eye is the dominant eye, 'l' for left and 'r' for right.
-* **X:** Switch mode. There are 2 modes:
+* **D:** Set the dominant eye, 'l' for left and 'r' for right.
+* **X:** Switch mode:
   * **"dom"**: Level of foveation increases in all 2 eyes, the goal is to determine the parameters of the dominant eye.
-  * **"nondom"**: Level of foveation increases only in the non-dominant eye, the goal is to determine the parameters of the non-dominant eye after determining the parameters of the dominant eye.
+  * **"nondom"**: Level of foveation increases only in the non-dominant eye, the goal is to determine the parameters of the non-dominant eye after determining the dominant eye.
 
 #### Level of foveation (the blurred eye depends on dominant eye and mode settings)
 
@@ -42,10 +40,11 @@ You may control the parameters by keyboard keys:
 * **M**: Increase the level of foveation of the outer 2 layers (mid-periphery, periphery).
 * **P**: Increase the level of foveation of the periphery layer.
 
-You can use the *inspector* window of a GameObject named *DisplayL* and *DisplayR* for finer adjustments.
+Use the *inspector* window of *DisplayL* and *DisplayR* for finer adjustments.
 
-You can also adjust the angle range of the 3 layers using the *inspector* window of *DisplayL* and *DisplayR*.
+Adjust the angle range of the 3 layers using the *inspector* window of *DisplayL* and *DisplayR*.
 
 ## Note
 
-* Please ensure the resolution settings in "Game" window is set to 1024×1024, if you want to change the display resolution, modify the size of "TexturePass0.renderTexture" as well.
+* Please ensure the resolution is set to 1024×1024, if you want to change the display resolution, modify the size of "TexturePass0.renderTexture" as well.
+
